@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Table</title>
+    <style>
+      h2 {
+        color: indianred;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      ul li {
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 2rem;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        border: 1px solid #000;
+        padding: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>এইচটিএমএল টেবিল এর মধ্যে যে ধরনের ট্যাগ গুলা হয়</h2>
+    <ul>
+      <li>Head</li>
+      <li>Body</li>
+      <li>Footer</li>
+      <li>Row</li>
+      <li>Table Data or Table Cell</li>
+    </ul>
+    <h2>এইচটিএমএল টেবিল ট্যাগ ব্যবহার করার ধরন</h2>
+    <ul>
+      <li>Table = table</li>
+      <li>Table Head = thead</li>
+      <li>Table Body = tbody</li>
+      <li>Table Footer = tfoot</li>
+      <li>Table Row = tr</li>
+      <li>Table Data or Table Cell = td</li>
+      <li>Table Header Cell = th</li>
+      <li>Table Title = Caption</li>
+    </ul>
+
+    <h2>Table</h2>
+    <table>
+      <caption>
+        Employer Salary Data
+      </caption>
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>NM Saikat</td>
+          <td>Web Designer & Developer</td>
+          <td>$3000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>NM Saikat</td>
+          <td>Web Designer & Developer</td>
+          <td>$3000</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>NM Saikat</td>
+          <td>Web Designer & Developer</td>
+          <td>$3000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">Table Employer: 3</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
